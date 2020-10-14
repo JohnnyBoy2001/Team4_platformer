@@ -645,11 +645,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2394341090212753347, guid: d8f96a7dead19824f97fa55529bfafd3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.14
+      value: 4.13
       objectReference: {fileID: 0}
     - target: {fileID: 2394341090212753347, guid: d8f96a7dead19824f97fa55529bfafd3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.45
+      value: 0.64
       objectReference: {fileID: 0}
     - target: {fileID: 2394341090212753347, guid: d8f96a7dead19824f97fa55529bfafd3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1066,6 +1066,18 @@ PrefabInstance:
       propertyPath: m_LocalRotation.y
       value: -0.0034376753
       objectReference: {fileID: 0}
+    - target: {fileID: 5617799293365770548, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0.088
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617799293365770548, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -0.386
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617799293365770548, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 396.013
+      objectReference: {fileID: 0}
     - target: {fileID: 5617799293542400544, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.12506026
@@ -1073,6 +1085,10 @@ PrefabInstance:
     - target: {fileID: 5617799293542400544, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.9921492
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617799293542400544, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -14.368
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
