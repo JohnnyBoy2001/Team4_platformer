@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 110512605283614978}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.65, y: -3.35, z: 0}
-  m_LocalScale: {x: 0.6592159, y: 0.6592159, z: 0.6592159}
+  m_LocalScale: {x: 0.7430832, y: 0.7430832, z: 0.7430832}
   m_Children:
   - {fileID: 2945388476358266508}
   m_Father: {fileID: 0}
@@ -90,6 +90,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3039548967499560095}
     m_Modifications:
+    - target: {fileID: 3610479674673365297, guid: 6f74d59938986464aad72fabe624854e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8664891294800927897, guid: 6f74d59938986464aad72fabe624854e, type: 3}
       propertyPath: m_Name
       value: anim_lights_1
