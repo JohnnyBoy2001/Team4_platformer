@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+<<<<<<< HEAD
     path: Assets/Scenes/Outside Castle.unity
     guid: 70254c240d0c76a46922456cae4a6d0a
   - enabled: 1
@@ -18,6 +19,23 @@ EditorBuildSettings:
     path: Assets/Scenes/2nd floor castle.unity
     guid: 8325f3627e0fc0643bba26bb89236938
   - enabled: 1
+=======
+    path: Assets/Scenes/Main Menu.unity
+    guid: afab31a67522c544ab87fd2ee66b993e
+  - enabled: 1
+    path: Assets/Scenes/Outside Castle.unity
+    guid: 70254c240d0c76a46922456cae4a6d0a
+  - enabled: 0
+    path: Assets/Scenes/1st floor castle.unity
+    guid: 875e9bf4b5b2bc0478028bd9f3a91b60
+  - enabled: 0
+    path: Assets/Scenes/2nd floor castle.unity
+    guid: 8325f3627e0fc0643bba26bb89236938
+  - enabled: 0
+    path: Assets/Scenes/Basement.unity
+    guid: 4b1ddabedba0a0d47a7e3db163bba3c6
+  - enabled: 0
+>>>>>>> c9e67df0bc74582b59278dc2b1b581af10fa4ff1
     path: Assets/Scenes/Boss arena.unity
     guid: 3580161d404e89c44bf112c3ba9c6b88
   m_configObjects: {}
