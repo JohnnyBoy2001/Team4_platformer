@@ -10,6 +10,11 @@ public class MenuControl : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    public void ButtonLevel()
+    {
+        SceneManager.LoadScene(6);
+    }
+
     public void ButtonQuit()
     {
         Application.Quit();
