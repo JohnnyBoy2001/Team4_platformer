@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_Combat : MonoBehaviour
 {
     // Start is called before the first frame update
+    //public Random ();
     public Animator animator;
     public LayerMask enemyLayers;
     public Transform AttackPoint;
