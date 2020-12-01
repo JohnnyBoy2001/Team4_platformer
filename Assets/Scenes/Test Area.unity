@@ -1192,6 +1192,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: bac23640583b5434aafc528feee7c484, type: 3}
+    - target: {fileID: 5617799293322502036, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617799293322502036, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617799293322502036, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5617799293322502037, guid: 384940d928d0e0f4ba2d97c1ee218a89, type: 3}
       propertyPath: m_BoneTransforms.Array.size
       value: 16
@@ -1641,6 +1653,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1788914297481346576, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
+      propertyPath: m_Offset.x
+      value: -2.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788914297481346576, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.42914534
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788914297481346576, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
+      propertyPath: m_Size.y
+      value: 10.478252
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788914297481346582, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788914297481346582, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788914297481346582, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1788914297481346583, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.93
@@ -2290,6 +2326,18 @@ PrefabInstance:
     - target: {fileID: 6895391174386807572, guid: 5f73bfe08deede14d9bd1cfbe011306d, type: 3}
       propertyPath: m_Name
       value: Skeleton Warrior
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895391174386807576, guid: 5f73bfe08deede14d9bd1cfbe011306d, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895391174386807576, guid: 5f73bfe08deede14d9bd1cfbe011306d, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6895391174386807576, guid: 5f73bfe08deede14d9bd1cfbe011306d, type: 3}
+      propertyPath: m_Color.r
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6895391174386807579, guid: 5f73bfe08deede14d9bd1cfbe011306d, type: 3}
       propertyPath: m_LocalPosition.x
