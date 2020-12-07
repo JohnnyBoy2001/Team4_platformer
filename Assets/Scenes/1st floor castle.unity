@@ -2673,6 +2673,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 658667839, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+      propertyPath: healthbar
+      value: 
+      objectReference: {fileID: 1690439053}
     - target: {fileID: 4924610309174771271, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.1159656
@@ -7189,6 +7193,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: af2aac66de208e444ac2e4ce40d5fdaf, type: 3}
+--- !u!114 &1690439053 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4452913863257607254, guid: af2aac66de208e444ac2e4ce40d5fdaf, type: 3}
+  m_PrefabInstance: {fileID: 1690439052}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17113e5e00fd924592fac0ddb9aef82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1752183913
 GameObject:
   m_ObjectHideFlags: 0
