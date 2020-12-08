@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerCombat : MonoBehaviour
+public class LoadNewArea : MonoBehaviour
 {
+
+    public string levelToLoad;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,5 +16,14 @@ public class PlayerCombat : MonoBehaviour
     void Update()
     {
         
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.name == "Player")
+        {
+            Application.LoadLevel(levelToLoad);
+        }
+
     }
 }

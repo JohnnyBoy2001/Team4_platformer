@@ -22,6 +22,11 @@ public class EnemyHealth : MonoBehaviour
         //Play Hurt Animation
         animator.SetTrigger("Hurt");
 
+        if(currentHealth < 200)
+        {
+            GetComponent<Animator>().SetBool("IsEnraged", true);
+        }
+
         if(currentHealth <= 0)
         {
             Die();
