@@ -2689,6 +2689,10 @@ PrefabInstance:
       propertyPath: enemyLayers.m_Bits
       value: 2048
       objectReference: {fileID: 0}
+    - target: {fileID: 658667840, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+      propertyPath: attackRange
+      value: 1.4
+      objectReference: {fileID: 0}
     - target: {fileID: 4924610309174771271, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
       propertyPath: m_LocalRotation.z
       value: -0.1159656
