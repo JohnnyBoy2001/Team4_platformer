@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
     public float runSpeed;
     public float jumpForce;
     private float moveInput;
-
+    
     private bool isGrounded;
     public Transform feetPos;
     public float checkRadius;
@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour
     public float jumpTimeCounter;
     public float jumpTime;
     public bool isJumping;
+    public Animator animator;
 
     void Start()
     {
@@ -35,20 +36,25 @@ public class PlayerController : MonoBehaviour
     {
         isGrounded = Physics2D.OverlapCircle(feetPos.position, checkRadius, whatIsGround);
 
-         if (moveInput > 0)
-            {
-                transform.eulerAngles = new Vector3(0, 0, 0);
-            }
-         else if (moveInput < 0)
-            {
-                transform.eulerAngles = new Vector3(0, 180, 0);
-            }
+        if (moveInput > 0)
+        {
+            transform.eulerAngles = new Vector3(0, 0, 0);
+            animator.SetBool("IsWalking", true);
+        }
+        else if (moveInput < 0)
+        {
+            transform.eulerAngles = new Vector3(0, 180, 0);
+            animator.SetBool("IsWalking", true);
+        }
+        else if (moveInput == 0)
+            animator.SetBool("IsWalking", false);
 
       
 
         if (isGrounded == true && Input.GetKeyDown(KeyCode.W))
         {
             isJumping = true;
+            //animator
             jumpTimeCounter = jumpTime;
             rb.velocity = Vector2.up * jumpForce;
         }
