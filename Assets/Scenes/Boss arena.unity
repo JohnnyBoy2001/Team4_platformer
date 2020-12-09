@@ -1443,6 +1443,19 @@ MonoBehaviour:
   attackRate: 1
   attackRange: 0.5
   attackDamage: 20
+--- !u!114 &377201997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 377201988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2b5ac2cb81947479e6899cb6bfebec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathTimeOut: 2
 --- !u!1 &395870316
 GameObject:
   m_ObjectHideFlags: 0
@@ -3818,9 +3831,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: dc4e96fa3e55ed44da56be68658d5e32, type: 3}
+  m_audioClip: {fileID: 8300000, guid: c0bb8a67b47ce1546905543ae9aea109, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.2
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -6115,6 +6128,10 @@ PrefabInstance:
       propertyPath: runSpeed
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 658667831, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 853219677}
     - target: {fileID: 658667839, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
       propertyPath: healthbar
       value: 

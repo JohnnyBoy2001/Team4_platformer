@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
             healthbar.SetHealth(currentHealth);
         }    
             
-        else if(currentHealth <= 0)
+        if(currentHealth <= 0)
         {
             animator.SetBool("IsDead", true);
             GetComponent<PlayerController>().enabled = false;
