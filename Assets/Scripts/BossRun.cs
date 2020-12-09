@@ -6,6 +6,7 @@ public class BossRun : StateMachineBehaviour
 {
     public float speed = 2.5f;
     public float attackRange = 3f;
+    BossHealth bossHealth;
     Transform player;
     Rigidbody2D rb;
     FacePlayer faceplayer;
@@ -16,6 +17,7 @@ public class BossRun : StateMachineBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
         rb = animator?.GetComponent<Rigidbody2D>();
         faceplayer = animator?.GetComponent<FacePlayer>();
+        bossHealth = animator.GetComponent<BossHealth>();
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -31,13 +33,16 @@ public class BossRun : StateMachineBehaviour
         {
             animator.SetTrigger("Attack");
         }
-           
+        if (bossHealth.GetHealth() <= 0)
+          animator.SetBool("IsDead", true);
+        
     }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         animator.ResetTrigger("Attack");
+        
     }
 
 
