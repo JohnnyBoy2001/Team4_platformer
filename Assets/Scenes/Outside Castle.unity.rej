@@ -1,9 +1,10 @@
 diff a/Assets/Scenes/Outside Castle.unity b/Assets/Scenes/Outside Castle.unity	(rejected hunks)
-@@ -199,6 +199,7 @@
-     - target: {fileID: 5247273710768488604, guid: 6385f68269273eb4eb52d5e24b2f827d, type: 3}
-       propertyPath: m_LocalPosition.y
-       value: -12.365
-+      value: -12.56
+@@ -164,7 +164,7 @@
        objectReference: {fileID: 0}
-     - target: {fileID: 5247273710768488604, guid: 6385f68269273eb4eb52d5e24b2f827d, type: 3}
-       propertyPath: m_LocalPosition.z
+     - target: {fileID: 8664891294800927898, guid: 6f74d59938986464aad72fabe624854e, type: 3}
+       propertyPath: m_RootOrder
+-      value: 14
++      value: 11
+       objectReference: {fileID: 0}
+     - target: {fileID: 8664891294800927898, guid: 6f74d59938986464aad72fabe624854e, type: 3}
+       propertyPath: m_LocalEulerAnglesHint.x
