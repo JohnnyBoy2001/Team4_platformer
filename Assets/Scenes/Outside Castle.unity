@@ -1288,7 +1288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 376123799}
-  maxHealth: 200
+  maxHealth: 140
 --- !u!114 &376123796
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3114,7 +3114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1165440168}
-  maxHealth: 200
+  maxHealth: 140
 --- !u!95 &1165440168 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1788914297481346580, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
@@ -3789,7 +3789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1417159252}
-  maxHealth: 150
+  maxHealth: 100
 --- !u!1 &1426377099
 GameObject:
   m_ObjectHideFlags: 0
@@ -4224,6 +4224,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1540874715 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4924610311086171407, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+  m_PrefabInstance: {fileID: 616752188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1540874724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1540874715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e2b5ac2cb81947479e6899cb6bfebec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathTimeOut: 2
 --- !u!1 &1577499225
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,6 +5453,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271282618389144978, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2271282618389144979, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
       propertyPath: player
       value: 

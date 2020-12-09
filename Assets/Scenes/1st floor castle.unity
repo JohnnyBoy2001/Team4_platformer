@@ -2681,6 +2681,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 658667831, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 630859967}
     - target: {fileID: 658667839, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
       propertyPath: healthbar
       value: 
@@ -4266,6 +4270,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271282618389144978, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2271282618389144979, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
       propertyPath: player
       value: 
@@ -4716,6 +4724,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271282618389144978, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2271282618389144979, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
       propertyPath: player
       value: 
@@ -5100,6 +5112,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271282618389144978, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2271282618389144979, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
       propertyPath: player
       value: 
@@ -6293,6 +6309,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2271282618389144978, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
+      propertyPath: maxHealth
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 2271282618389144979, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
       propertyPath: player
       value: 
