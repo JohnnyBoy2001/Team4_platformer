@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,28 +9,26 @@ public class GameManager : MonoBehaviour
     //public Transform platformGenerator;
     //private Vector3 platformStartPoint;
 
-    public PlayerController thePlayer;
-    private Vector3 playerStartPoint;
+    //public PlayerController thePlayer;
+    //private Vector3 playerStartPoint;
     // Start is called before the first frame update
-    void Start()
+
+    bool gameHasEnded = false;
+    public float deathTimeOut = 2f;
+    public void EndGame()
     {
-        playerStartPoint = thePlayer.transform.position;
+        if(gameHasEnded == false)
+        {
+            gameHasEnded = true;
+            Invoke("RestartGame", deathTimeOut);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public void RestartGame()
     {
-        StartCoroutine("RestartGameCo");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //Application.LoadLevel(SceneManager.GetActiveScene().name);
     }
-    public IEnumerator RestartGameCo()
-    {
-        //thePlayer.gameObject.SetActive(false);
-        yield return new WaitForSeconds(1f);
-        thePlayer.transform.position = playerStartPoint;
-    }
+    
 }

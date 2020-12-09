@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
 
+    public Animator animator;
     public Health healthbar;
 
     void Start()
@@ -25,7 +26,18 @@ public class PlayerHealth : MonoBehaviour
     }
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
-        healthbar.SetHealth(currentHealth);
+        if(currentHealth > 0)
+        {
+            animator.SetTrigger("Damage");
+            currentHealth -= damage;
+            healthbar.SetHealth(currentHealth);
+        }    
+            
+        else if(currentHealth <= 0)
+        {
+            animator.SetBool("IsDead", true);
+            GetComponent<PlayerController>().enabled = false;
+            GetComponent<GameManager>().EndGame();
+        }
     }
 }

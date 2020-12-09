@@ -2685,6 +2685,10 @@ PrefabInstance:
       propertyPath: healthbar
       value: 
       objectReference: {fileID: 1690439053}
+    - target: {fileID: 658667839, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 630859967}
     - target: {fileID: 658667840, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
       propertyPath: enemyLayers.m_Bits
       value: 2048
@@ -2847,6 +2851,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+--- !u!95 &630859967 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4924610311086171404, guid: 51cd68b73d17d99429bca9630cc5cbd3, type: 3}
+  m_PrefabInstance: {fileID: 630859966}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &661032970
 GameObject:
   m_ObjectHideFlags: 0
