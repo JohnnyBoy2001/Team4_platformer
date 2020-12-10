@@ -6,7 +6,7 @@ public class BossHealth : MonoBehaviour
 {
     public Animator animator;
     //public BossRun bossRun;
-
+    public Health healthBar;
     public int maxHealth = 220;
     int currentHealth;
 
@@ -15,12 +15,13 @@ public class BossHealth : MonoBehaviour
     void Start()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
     public void TakeDamage(int damage)
     {
         
         currentHealth -= damage;
-
+        healthBar.SetHealth(currentHealth);
         //Play Hurt Animation
         animator.SetTrigger("Hurt");
 
