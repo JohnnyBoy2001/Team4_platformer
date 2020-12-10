@@ -13117,8 +13117,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35dad4640b70fb14fb1c3fd1ba9b661e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  isFlipped: 0
+  player: {fileID: 990079736}
+  isFlipped: 1
 --- !u!114 &1489477247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13486,8 +13486,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 35dad4640b70fb14fb1c3fd1ba9b661e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  isFlipped: 0
+  player: {fileID: 990079736}
+  isFlipped: 1
 --- !u!114 &1541958708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14983,7 +14983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1287984106351801331, guid: a2dc45d1090adeb479c1cf1c3c656d31, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.06999993
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1287984106351801331, guid: a2dc45d1090adeb479c1cf1c3c656d31, type: 3}
       propertyPath: m_LocalPosition.z
