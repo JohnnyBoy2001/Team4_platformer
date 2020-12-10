@@ -15,8 +15,8 @@ public class BossRun : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        rb = animator?.GetComponent<Rigidbody2D>();
-        faceplayer = animator?.GetComponent<FacePlayer>();
+        rb = animator.GetComponent<Rigidbody2D>();
+        faceplayer = animator.GetComponent<FacePlayer>();
         bossHealth = animator.GetComponent<BossHealth>();
     }
 
@@ -27,7 +27,7 @@ public class BossRun : StateMachineBehaviour
 
         Vector2 target = new Vector2(player.position.x, rb.position.y);
         Vector2 newPos = Vector2.MoveTowards(rb.position, target, speed * Time.fixedDeltaTime);
-        rb?.MovePosition(newPos);
+        rb.MovePosition(newPos);
 
         if(Vector2.Distance(player.position, rb.position) <= attackRange)
         {
