@@ -2890,7 +2890,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1165440168}
-  maxHealth: 140
+  maxHealth: 100
 --- !u!95 &1165440168 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1788914297481346580, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
@@ -3551,7 +3551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 658667836}
-  isFlipped: 0
+  isFlipped: 1
 --- !u!114 &1417159255
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3565,7 +3565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 1417159252}
-  maxHealth: 100
+  maxHealth: 60
 --- !u!1 &1426377099
 GameObject:
   m_ObjectHideFlags: 0
@@ -5142,7 +5142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 2117200698}
-  maxHealth: 200
+  maxHealth: 100
 --- !u!95 &2117200698 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 1788914297481346580, guid: 235ccfa9c7a265e4f82c849c6e2b5212, type: 3}
@@ -5231,7 +5231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2271282618389144978, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
       propertyPath: maxHealth
-      value: 100
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2271282618389144979, guid: d06f5840dbfb80e4b807bc833d23e707, type: 3}
       propertyPath: player
@@ -5446,6 +5446,10 @@ PrefabInstance:
     - target: {fileID: 3160430496599632237, guid: bacd9d3d771d1804080ccef2012ffb4e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3679329680804300321, guid: bacd9d3d771d1804080ccef2012ffb4e, type: 3}
+      propertyPath: maxHealth
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3679329680804300329, guid: bacd9d3d771d1804080ccef2012ffb4e, type: 3}
       propertyPath: player

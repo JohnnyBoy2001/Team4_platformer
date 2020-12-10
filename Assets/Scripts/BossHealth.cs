@@ -6,6 +6,7 @@ public class BossHealth : MonoBehaviour
 {
     public Animator animator;
     //public BossRun bossRun;
+    public GameObject deathDoor;
     public Health healthBar;
     public int maxHealth = 220;
     int currentHealth;
@@ -16,6 +17,7 @@ public class BossHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        deathDoor.SetActive(false);
     }
     public void TakeDamage(int damage)
     {
@@ -44,6 +46,7 @@ public class BossHealth : MonoBehaviour
         //GetComponent<Collider2D>().enabled = false;
         //bossRun.speed = 0f;
         //bossRun.attackRange = 0f;
+        deathDoor.SetActive(true);
         this.enabled = false;
     }
     // Update is called once per frame
